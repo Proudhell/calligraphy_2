@@ -4,9 +4,14 @@ footer{
 }
 .navbar {
     display:table;
-    width:100%;
+    width: 100%;
     margin: 0;
     float:none;
     display:table-cell;
     text-align:center;
+    background-color: #000000be !important;
+    text-transform: uppercase;    
+}
+.body{
+    background-image: url(C:\Users\Ксения\Desktop\Calligraphy\calligraphy\src\img\img1.svg);
 }

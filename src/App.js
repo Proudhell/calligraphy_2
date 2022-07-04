@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Footer/>
-    </div>
+    <body>
+      <div>
+        <Header />
+        <Footer />
+      </div>
+    </body>
   );
 }
-
 export default App;
