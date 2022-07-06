@@ -1,22 +1,21 @@
 import React from 'react'
-import { Navbar,  Nav} from 'react-bootstrap'
 
 export default function Header() {
     return (
-        <Navbar variant="dark" expand="md">
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-                <Nav
-                    className="me-auto my-2 my-lg-0"
-                    
-                    navbarScroll
-                >
-                    <Nav.Link href="Gallery">Gallery</Nav.Link>
-                    <Nav.Link href="Blog">Blog</Nav.Link>
-                    <Nav.Link href="Quiz">Quiz</Nav.Link>
-                    <Nav.Link href="About_me">About me</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>            
-        </Navbar>
+        <ul>
+            <ul class="navbar_links">
+                <li><a class="navbar-links" href="teasers">teasers</a></li>
+                <li><a class="navbar-links" href="constructor">constructor</a></li>
+                <li><a class="navbar-links" href="manufacturing">manufacturing</a></li>
+            </ul>
+            <ul class="navbar_links">
+                <li><a class="navbar-links" href="catalog">catalog</a></li>
+                <li><a class="navbar-links" href="discounts">discounts</a></li>
+                <li><a class="navbar-links" href="about_author">about author</a></li>
+            </ul>
+            <li class="navbar_link_right">
+                <a href="shopping_cart">shopping cart 5 &gt;</a>
+                </li>
+        </ul>
     )
 }
