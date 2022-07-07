@@ -3,12 +3,13 @@ footer{
     text-align: center;
     display: block;
 }
-ul {
+ul {    
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;    
+    background-color: rgba(0, 0, 0, 0.897);  
+    z-index: -10 !important;
   }
   li a {
     display: block;
@@ -20,6 +21,7 @@ ul {
     height: 3em;
     width: 10em;
     font-family:Bahnschrift; 
+    
   }
   
   li a:hover {
@@ -30,13 +32,56 @@ ul {
     float:right;
     font-size: 1.2em;    
     margin-top: -4em;
-    margin-right: 15em;    
+    margin-right: 15em;      
+    
+    background-color: rgba(137, 43, 226, 0);  
+    
   }
   .navbar_links{
     font-size: 1em;
     text-align: center;
-    margin-left: 15em;
+    margin-left: 15em;    
+    background-color: rgba(137, 43, 226, 0);  
   }
-  .awfw{
-    height: 100em;
+  
+  
+  .pic{
+    position: relative;
+    top:-7em;
+    z-index: -1 !important;
+    height: 18em;
+    width: 18.7em;
+    display: inline;
+  }
+  .pic1{        
+    background-image: url("img/img1.svg");    
+    background-repeat: no-repeat;
+  }
+  .pic2{
+    background-image: url("img/img2.svg");     
+    background-repeat: no-repeat;
+  }
+  .pic3{        
+    background-image: url("img/img3.svg");    
+    background-repeat: no-repeat;
+  }
+  .pic4{
+    background-image: url("img/img4.svg");     
+    background-repeat: no-repeat;
+  }
+  .pic5{        
+    background-image: url("img/img5.svg");    
+    background-repeat: no-repeat;
+  }
+  .pic6{
+    background-image: url("img/img6.svg");     
+    background-repeat: no-repeat;
+  }
+  .pic7{        
+    background-image: url("img/img7.svg");    
+    background-repeat: no-repeat;
+  }
+  .pic8{
+    background-image: url("img/img8.svg");     
+    background-repeat: no-repeat;
   }
