@@ -4,12 +4,17 @@ footer{
     display: block;
 }
 ul {    
+    background: transparent;
+    position: relative;
+    top: 0em;
+    width: 100%;
+    height: 10%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.897);  
-    z-index: -10 !important;
+    background-color: rgba(0, 0, 0, 0.897); 
+    z-index: 10;
   }
   li a {
     display: block;
@@ -30,10 +35,11 @@ ul {
   }
   .navbar_link_right{
     float:right;
+    position: relative;
+    z-index: 12;
     font-size: 1.2em;    
     margin-top: -4em;
-    margin-right: 15em;      
-    
+    margin-right: 15em;     
     background-color: rgba(137, 43, 226, 0);  
     
   }
@@ -41,47 +47,183 @@ ul {
     font-size: 1em;
     text-align: center;
     margin-left: 15em;    
-    background-color: rgba(137, 43, 226, 0);  
   }
-  
-  
   .pic{
-    position: relative;
-    top:-7em;
-    z-index: -1 !important;
-    height: 18em;
-    width: 18.7em;
-    display: inline;
+    position: fixed;
+    top:-12em;
+    left: -4em;
+    height: 18.5em;
+    width: 18.5em;
+    display: inline-block;
   }
   .pic1{        
     background-image: url("img/img1.svg");    
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
   }
   .pic2{
     background-image: url("img/img2.svg");     
     background-repeat: no-repeat;
+    left: 14.5em;
   }
   .pic3{        
     background-image: url("img/img3.svg");    
     background-repeat: no-repeat;
+    left: 33em;
   }
   .pic4{
     background-image: url("img/img4.svg");     
     background-repeat: no-repeat;
+    left: 51.5em;
   }
   .pic5{        
     background-image: url("img/img5.svg");    
     background-repeat: no-repeat;
+    left: 70em;
   }
   .pic6{
     background-image: url("img/img6.svg");     
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+    left: 88.5em;
   }
   .pic7{        
     background-image: url("img/img7.svg");    
     background-repeat: no-repeat;
+    left: 107em;
   }
-  .pic8{
-    background-image: url("img/img8.svg");     
+  .pic8{        
+    background-image: url("img/img8.svg");    
+    background-repeat: no-repeat;    
+    top: 6.5em;
+  }
+  .pic9{
+    background-image: url("img/img9.svg");     
     background-repeat: no-repeat;
+    left: 14.5em;
+    top: 6.5em;
+  }
+  .pic10{        
+    background-image: url("img/img10.svg");    
+    background-repeat: no-repeat;
+    left: 33em;
+    top: 6.5em;
+  }
+  .pic11{
+    background-image: url("img/img11.svg");     
+    background-repeat: no-repeat;
+    left: 51.5em;
+    top: 6.5em;
+  }
+  .pic12{        
+    background-image: url("img/img12.svg");    
+    background-repeat: no-repeat;
+    left: 70em;
+    top: 6.5em;
+  }
+  .pic13{
+    background-image: url("img/img13.svg");     
+    background-repeat: no-repeat;    
+    left: 88.5em;
+    top: 6.5em;
+  }
+  .pic14{        
+    background-image: url("img/img14.svg");    
+    background-repeat: no-repeat;
+    left: 107em;
+    top: 6.5em;
+  }
+  .pic15{        
+    background-image: url("img/img15.svg");    
+    background-repeat: no-repeat;    
+    top: 25em;
+  }
+  .pic16{
+    background-image: url("img/img16.svg");     
+    background-repeat: no-repeat;
+    left: 14.5em;
+    top: 25em;
+  }
+  .pic17{        
+    background-image: url("img/img17.svg");    
+    background-repeat: no-repeat;
+    left: 33em;
+    top: 25em;
+  }
+  .pic18{
+    background-image: url("img/logo.svg");     
+    background-repeat: no-repeat;
+    left: 51.5em;
+    top: 25em;
+    position: fixed;
+    height: 18.5em;
+    width: 18.5em;
+    display: inline-block;
+  }
+  .pic19{        
+    background-image: url("img/img18.svg");    
+    background-repeat: no-repeat;
+    left: 70em;
+    top: 25em;
+  }
+  .pic20{
+    background-image: url("img/img19.svg");     
+    background-repeat: no-repeat;    
+    left: 88.5em;
+    top: 25em;
+  }
+  .pic21{        
+    background-image: url("img/img20.svg");    
+    background-repeat: no-repeat;
+    left: 107em;
+    top: 25em;
+  }
+  .pic22{        
+    background-image: url("img/img21.svg");    
+    background-repeat: no-repeat;    
+    top: 43.5em;
+  }
+  .pic23{
+    background-image: url("img/img22.svg");     
+    background-repeat: no-repeat;
+    left: 14.5em;
+    top: 43.5em;
+  }
+  .pic24{        
+    background-image: url("img/img23.svg");    
+    background-repeat: no-repeat;
+    left: 33em;
+    top: 43.5em;
+  }
+  .pic25{
+    background-image: url("img/img24.svg");     
+    background-repeat: no-repeat;
+    left: 51.5em;
+    top: 43.5em;
+  }
+  .pic26{        
+    background-image: url("img/img25.svg");    
+    background-repeat: no-repeat;
+    left: 70em;
+    top: 43.5em;
+  }
+  .pic27{
+    background-image: url("img/img26.svg");     
+    background-repeat: no-repeat;    
+    left: 88.5em;
+    top: 43.5em;
+  }
+  .pic28{        
+    background-image: url("img/img27.svg");    
+    background-repeat: no-repeat;
+    left: 107em;
+    top: 43.5em;
+  }
+  .pic::after{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.589);
+  z-index: 2;
   }
