@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState} from "react";
 
-export default function Header() {
-    return (      
-        <ul >
+
+const Topbar = function () {
+    const [products, setProducts] = useState(0);
+
+    function NumberOfProducts () {
+        setProducts(products + 1);
+    }
+
+
+    return(
+        <div>
+            <ul >
             <div class="left-buttons">
                 <ul class="navbar_links">
                     <li><a class="navbar-links" href="teasers">teasers</a></li>
@@ -16,8 +25,13 @@ export default function Header() {
                 </ul>
             </div>
             <li class="navbar_link_right">
-                <a href="shopping_cart">shopping cart 5 &gt;</a>
+                <button onClick={NumberOfProducts}>Товары</button>
+                <img src="" alt="" />
+                <a href="shopping_cart">shopping cart <span>{products}</span> &gt;</a>
             </li>
         </ul>
-    )
-}
+        </div>
+    );
+};
+
+export default Topbar;

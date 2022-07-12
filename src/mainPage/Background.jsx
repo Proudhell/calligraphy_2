@@ -4,8 +4,13 @@ import styles from './style/mainpage.module.scss';
 
 const Background = function() {
 
+    
 
+    const windowInnerWidth = document.documentElement.clientWidth;
+    const windowInnerHeight = document.documentElement.clientHeight;
 
+    console.log(windowInnerWidth);
+    console.log(windowInnerHeight);
 
 
     return (
