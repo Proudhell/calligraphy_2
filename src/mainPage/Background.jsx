@@ -12,16 +12,11 @@ const Background = function() {
     console.log(windowInnerWidth);
     console.log(windowInnerHeight);
     
-    const fixedWindow = {
-         width: `100vw`,
-         height: `100vh`,
-        // width: `${windowInnerWidth}px`,
-        // height: `${windowInnerHeight}px`,
-    }
+    
 
     return (
         <div className={styles.wrapperBanner} >
-            <div className="big-logo">
+            <div className={styles.bigLogo}>
                 <img src={logo} className={styles.mainpage-logo} alt="logo" />
             </div>
         </div>

@@ -7,7 +7,7 @@ const Topbar = function () {
     function NumberOfProducts () {
         setProducts(products + 1);
     }
-
+    
 
     return(
         <div className={stylesComponets.topBar}>
@@ -25,8 +25,9 @@ const Topbar = function () {
             </div>
             <div>
             <li className={stylesComponets.topBarRight}>
-                <button onClick={NumberOfProducts}>Товары</button>
-                <div className={stylesComponets.topBarRightWrapper}><img src="" alt="" />
+                <div className={stylesComponets.topBarRightWrapper}>
+                    {/* <button onClick={NumberOfProducts} >Товары</button> Хуйня для теста если интересно раскаомменти и потыкай на кнопку*/}
+                    <img src="" alt="" />
                 <a className={stylesComponets.topBarRightItem} href="shopping_cart">shopping cart <span>{products}</span> &gt;</a></div>
             </li>
             </div>
