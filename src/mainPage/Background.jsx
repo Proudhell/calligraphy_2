@@ -12,7 +12,19 @@ const Background = function() {
     console.log(windowInnerWidth);
     console.log(windowInnerHeight);
     
-    
+    const imageСontainers = () => {
+        const windowInnerWidth = document.documentElement.clientWidth;
+        const windowInnerHeight = document.documentElement.clientHeight;
+        const imageContainer = 308;
+        console.log(windowInnerWidth);
+        console.log(windowInnerHeight);
+
+        let counter =  windowInnerWidth / imageContainer / 2;
+
+        console.log(counter); 
+
+    }
+    imageСontainers();
 
     return (
         <div className={styles.wrapperBanner} >
