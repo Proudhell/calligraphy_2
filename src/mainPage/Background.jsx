@@ -9,9 +9,9 @@ const Background = function() {
 
 
     return (
-        <div className="wrapper-header">
+        <div className={styles.wrapperbanner} >
             <div className="big-logo">
-                <img src={logo} className={styles.ainpage-logo} alt="logo" />
+                <img src={logo} className={styles.mainpage-logo} alt="logo" />
             </div>
         </div>
     );
