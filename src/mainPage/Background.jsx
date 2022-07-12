@@ -14,7 +14,7 @@ const Background = function() {
 
 
     return (
-        <div className={styles.wrapperbanner} >
+        <div className={styles.wrapperBanner} >
             <div className="big-logo">
                 <img src={logo} className={styles.mainpage-logo} alt="logo" />
             </div>

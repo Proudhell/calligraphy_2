@@ -1,9 +1,26 @@
-@import-normalize;
-footer{
-    text-align: center;
-    display: block;
+
+/*Сброс нахуй всех стилей, кбл я в рот эти беьлиотеки, шлак ебаный, импортируются хуй пойми откуда и куда, ниухя исправить нельзя */
+* 
+{
+  margin: 0;
+  padding: 0;
 }
-ul {    
+a {
+  
+  text-decoration: none; /* no underline */
+  cursor: pointer;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+
+/* s */
+
+/* ul {    
     background: transparent;
     position: relative;
     top: 0em;
@@ -226,4 +243,4 @@ ul {
   bottom: 0;
   background: rgba(0, 0, 0, 0.589);
   z-index: 2;
-  }
+  } */

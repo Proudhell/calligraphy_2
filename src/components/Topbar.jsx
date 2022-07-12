@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import stylesComponets from'./style/componets.module.scss'
 
 const Topbar = function () {
     const [products, setProducts] = useState(0);
@@ -10,26 +10,26 @@ const Topbar = function () {
 
 
     return(
-        <div>
-            <ul >
-            <div class="left-buttons">
-                <ul class="navbar_links">
-                    <li><a class="navbar-links" href="teasers">teasers</a></li>
-                    <li><a class="navbar-links" href="constructor">constructor</a></li>
-                    <li><a class="navbar-links" href="manufacturing">manufacturing</a></li>
+        <div className={stylesComponets.topBar}>
+            <div className={stylesComponets.topBarLeft}>
+                <ul className={stylesComponets.topBarLeftWrapper}>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="teasers">teasers</a></li>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="constructor">constructor</a></li>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="manufacturing">manufacturing</a></li>
                 </ul>
-                <ul class="navbar_links">
-                    <li><a class="navbar-links" href="catalog">catalog</a></li>
-                    <li><a class="navbar-links" href="discounts">discounts</a></li>
-                    <li><a class="navbar-links" href="about_author">about author</a></li>
+                <ul className={stylesComponets.topBarLeftWrapper}>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="catalog">catalog</a></li>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="discounts">discounts</a></li>
+                    <li className={stylesComponets.topBarLeftItem}><a className={stylesComponets.topBarLeftItem} href="about_author">about author</a></li>
                 </ul>
             </div>
-            <li class="navbar_link_right">
+            <div>
+            <li className={stylesComponets.topBarRight}>
                 <button onClick={NumberOfProducts}>Товары</button>
-                <img src="" alt="" />
-                <a href="shopping_cart">shopping cart <span>{products}</span> &gt;</a>
+                <div className={stylesComponets.topBarRightWrapper}><img src="" alt="" />
+                <a className={stylesComponets.topBarRightItem} href="shopping_cart">shopping cart <span>{products}</span> &gt;</a></div>
             </li>
-        </ul>
+            </div>
         </div>
     );
 };

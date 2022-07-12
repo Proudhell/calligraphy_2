@@ -1,0 +1,35 @@
+/*Сделай grid для меню navbar чтобы кнопки одинаковое расстояние занимали */
+.topBar{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    &Left{
+        width: 70%;
+        &Wrapper{
+            display: flex;
+            width: 600px;
+            margin-left: 25%;
+        }
+        &Item{
+            color: white;
+            padding: 8px 16px;
+            &:hover{
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+    &Right{
+        width: 30%;
+        display: flex;
+        &Wrapper{
+            margin: 15px 30px;
+            width: 100px;
+            height: 20px;
+        }
+        &Item{
+            color: white;
+            
+        }
+    }
+}
